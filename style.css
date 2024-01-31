@@ -122,7 +122,7 @@ a:hover{
     top:0; 
     left: 100vw;
     padding: 10px;
-    color: #fff;
+    color: white;
     font-size: 18px; 
     animation: runText 50s linear infinite; 
 }
@@ -151,7 +151,8 @@ a:hover{
 
 #t_para h1 {
     text-align: center;
-    margin: 0; }
+    margin: 0; 
+}
 
 .last{
     
@@ -284,19 +285,7 @@ a{
     color: black;
 }
 
-
-
-@keyframes runText {
-    0% {
-        left: 100%; 
-    }
-    100% {
-        left: -100%;
-    }
-}
-
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 750px) {
     
 
     #sect_1 {
