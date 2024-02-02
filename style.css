@@ -30,6 +30,7 @@ body{
     color:white;
     background-color:rgb(34,36,40) ;
     border: 1px solid white;
+    transition-duration: 350ms;
 }
 .sign_btn:active
 {
